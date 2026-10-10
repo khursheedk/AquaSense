@@ -1,0 +1,36 @@
+﻿# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model artifact -- include model.pkl in git if deploying to Streamlit Cloud
+# Uncomment the next line to exclude the model from version control:
+# model.pkl
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Logs and temp files
+*.log
+tmp/
+temp/
